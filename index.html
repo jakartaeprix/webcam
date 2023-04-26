@@ -92,10 +92,17 @@ input[type=submit]:hover {
       </div>
     </div>
     <div class="row">
-      <input type="submit" value="Submit">
+      <input type="submit" value="Submit" onClick="myFunction()"/>
     </div>
   </form>
 </div>
-
+<script>
+      function myFunction() {
+        let FirstName = document.getElementById('fname');
+        let LastName = document.getElementById('lname');
+        let result = FirstName.concat("_", LastName);
+        window.location.href="https://jakartaeprix.github.io/webcam/";  
+      }
+    </script>
 </body>
 </html>

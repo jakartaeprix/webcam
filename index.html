@@ -73,12 +73,20 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 </style>
 </head>
 <body>
-<img src="asset/webcam link.png">
+<center><img src="asset/webcam link.png">
 <h2 style="font-family: 'FE Sans Book'; font-weight: bold; font-style: normal;">Jakarta E-Prix Webcam Link generator</h2>
-<p style="font-family: 'FE Sans Maxi'; font-weight: 200; font-style: italic;">First letter must be capital</p>
+<p style="font-family: 'FE Sans Maxi'; font-weight: 200; font-style: italic;">First letter must be capital</p></center>
 <div class="container">
   <form>
     <div class="row">
@@ -98,11 +106,10 @@ input[type=submit]:hover {
         <input type="text" id="lname" name="lastname" placeholder="Martono"  style="font-family: 'FE Sans Maxi'; font-weight: 200; font-style: normal;">
       </div>
     </div>
-    <div class="row">
-      <input type="submit" value="Submit" onClick="myFunction()" style="font-family: 'FE Sans Maxi'; font-weight: 200; font-style: normal;"/>
+    <div class="center" >
+      <input type="submit" value="Submit" onClick="myFunction()" style="font-family: 'FE Sans Maxi'; font-weight: 200; font-style: normal;"/></center>
     </div>
 	<br>
-	<div id="link"></div>
   </form>
 </div>
 <script>

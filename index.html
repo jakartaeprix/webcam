@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="stylesheet.css" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+.h2 {
+    font-family: 'FE Sans Book';
+    font-weight: bold;
+    font-style: normal;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -21,7 +28,7 @@ label {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #000077;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -31,7 +38,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #0000f5;
 }
 
 .container {
@@ -69,42 +76,46 @@ input[type=submit]:hover {
 </style>
 </head>
 <body>
-
-<h2>Webcam Link generator</h2>
-<p>First letter must be capital</p>
+<img src="asset/webcam link.png">
+<h2 style="font-family: 'FE Sans Book'; font-weight: bold; font-style: normal;">Jakarta E-Prix Webcam Link generator</h2>
+<p style="font-family: 'FE Sans Maxi'; font-weight: 200; font-style: italic;">First letter must be capital</p>
 <div class="container">
-  <form action="/action_page.php">
+  <form>
     <div class="row">
       <div class="col-25">
-        <label for="fname">In-Game Name</label>
+        <label for="fname" style="font-family: 'FE Sans Maxi'; font-weight: 200; font-style: normal;">In-Game Name</label>
         
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="firstname" placeholder="Presley">
+        <input type="text" id="fname" name="firstname" placeholder="Presley" style="font-family: 'FE Sans Maxi'; font-weight: 200; font-style: normal;">
       </div>
     </div>
     <div class="row">
       <div class="col-25">
-        <label for="lname">Last Name</label>
+        <label for="lname" style="font-family: 'FE Sans Maxi'; font-weight: 200; font-style: normal;">Last Name</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="lastname" placeholder="Martono">
+        <input type="text" id="lname" name="lastname" placeholder="Martono"  style="font-family: 'FE Sans Maxi'; font-weight: 200; font-style: normal;">
       </div>
     </div>
     <div class="row">
-      <input type="submit" value="Submit" onClick="myFunction()"/>
+      <input type="submit" value="Submit" onClick="myFunction()" style="font-family: 'FE Sans Maxi'; font-weight: 200; font-style: normal;"/>
     </div>
+	<br>
+	<div id="link"></div>
   </form>
 </div>
 <script>
-      function myFunction() {
-        let FirstName = document.getElementById('fname');
-        let LastName = document.getElementById('lname');
-        let result = FirstName.concat("_", LastName);
-        let link1 = "https://vdo.ninja/?push=";
-        let link2 = link1+FirstName+LastName
-        window.location.href=link2;  
-      }
+      const form = document.querySelector('form');
+      const linkDiv = document.getElementById('link');
+      form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const room = document.getElementById('fname').value;
+        const name = document.getElementById('lname').value;
+        const link = `https://vdo.ninja/?push=${room}${name}`;
+        
+		window.location.href=link;
+      });
     </script>
 </body>
 </html>

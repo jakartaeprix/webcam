@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'FE Sans Book';
+    src: url('asset/fonts/FESans-MaxiBold.woff2') format('woff2'),
+        url('asset/fonts/FESans-MaxiBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Maxi Blond';
+    src: url('asset/fonts/FESans-MaxiBlondItalic.woff2') format('woff2'),
+        url('asset/fonts/FESans-MaxiBlondItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Maxi Blond';
+    src: url('asset/fonts/FESans-MaxiBlond.woff2') format('woff2'),
+        url('asset/fonts/FESans-MaxiBlond.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Maxi';
+    src: url('asset/fonts/FESans-MaxiBoldItalic.woff2') format('woff2'),
+        url('asset/fonts/FESans-MaxiBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Maxi';
+    src: url('asset/fonts/FESans-MaxiLightItalic.woff2') format('woff2'),
+        url('asset/fonts/FESans-MaxiLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Maxi';
+    src: url('asset/fonts/FESans-MaxiLight.woff2') format('woff2'),
+        url('asset/fonts/FESans-MaxiLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Maxi';
+    src: url('asset/fonts/FESans-MaxiItalic.woff2') format('woff2'),
+        url('asset/fonts/FESans-MaxiItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Maxi';
+    src: url('asset/fonts/FESans-MaxiMediumItalic.woff2') format('woff2'),
+        url('asset/fonts/FESans-MaxiMediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Maxi';
+    src: url('asset/fonts/FESans-MaxiThin.woff2') format('woff2'),
+        url('asset/fonts/FESans-MaxiThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Maxi';
+    src: url('asset/fonts/FESans-MaxiMedium.woff2') format('woff2'),
+        url('asset/fonts/FESans-MaxiMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Maxi';
+    src: url('asset/fonts/FESans-MaxiRegular.woff2') format('woff2'),
+        url('asset/fonts/FESans-MaxiRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Maxi';
+    src: url('asset/fonts/FESans-MaxiThinItalic.woff2') format('woff2'),
+        url('asset/fonts/FESans-MaxiThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Midi Blond';
+    src: url('asset/fonts/FESans-MidiBlond.woff2') format('woff2'),
+        url('asset/fonts/FESans-MidiBlond.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Midi';
+    src: url('asset/fonts/FESans-MidiBold.woff2') format('woff2'),
+        url('asset/fonts/FESans-MidiBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Midi';
+    src: url('asset/fonts/FESans-MidiBoldItalic.woff2') format('woff2'),
+        url('asset/fonts/FESans-MidiBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Midi Blond';
+    src: url('asset/fonts/FESans-MidiBlondItalic.woff2') format('woff2'),
+        url('asset/fonts/FESans-MidiBlondItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Midi';
+    src: url('asset/fonts/FESans-MidiItalic.woff2') format('woff2'),
+        url('asset/fonts/FESans-MidiItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Midi';
+    src: url('asset/fonts/FESans-MidiLight.woff2') format('woff2'),
+        url('asset/fonts/FESans-MidiLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Midi';
+    src: url('asset/fonts/FESans-MidiMedium.woff2') format('woff2'),
+        url('asset/fonts/FESans-MidiMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Midi';
+    src: url('asset/fonts/FESans-MidiLightItalic.woff2') format('woff2'),
+        url('asset/fonts/FESans-MidiLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Midi';
+    src: url('asset/fonts/FESans-MidiMediumItalic.woff2') format('woff2'),
+        url('asset/fonts/FESans-MidiMediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Midi';
+    src: url('asset/fonts/FESans-MidiRegular.woff2') format('woff2'),
+        url('asset/fonts/FESans-MidiRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Mini Blond';
+    src: url('asset/fonts/FESans-MiniBlond.woff2') format('woff2'),
+        url('asset/fonts/FESans-MiniBlond.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Mini Blond';
+    src: url('asset/fonts/FESans-MiniBlondItalic.woff2') format('woff2'),
+        url('asset/fonts/FESans-MiniBlondItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Mini';
+    src: url('asset/fonts/FESans-MiniBold.woff2') format('woff2'),
+        url('asset/fonts/FESans-MiniBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Mini';
+    src: url('asset/fonts/FESans-MiniBoldItalic.woff2') format('woff2'),
+        url('asset/fonts/FESans-MiniBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Mini';
+    src: url('asset/fonts/FESans-MiniItalic.woff2') format('woff2'),
+        url('asset/fonts/FESans-MiniItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Mini';
+    src: url('asset/fonts/FESans-MiniLight.woff2') format('woff2'),
+        url('asset/fonts/FESans-MiniLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Mini';
+    src: url('asset/fonts/FESans-MiniMedium.woff2') format('woff2'),
+        url('asset/fonts/FESans-MiniMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FE Sans Mini';
+    src: url('asset/fonts/FESans-MinilightItalic.woff2') format('woff2'),
+        url('asset/fonts/FESans-MinilightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+

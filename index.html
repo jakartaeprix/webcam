@@ -117,9 +117,13 @@ input[type=submit]:hover {
       const linkDiv = document.getElementById('link');
       form.addEventListener('submit', (event) => {
         event.preventDefault();
-        const room = document.getElementById('fname').value;
-        const name = document.getElementById('lname').value;
-        const link = `https://vdo.ninja/?push=${room}${name}`;
+        const room = document.getElementById('fname').value.charAt(0);
+		roomfirstCharacter = room.toUpperCase();
+		let roomcapitalizedString = roomfirstCharacter + document.getElementById('fname').value.slice(1);
+        const name = document.getElementById('lname').value.charAt(0);
+		namefirstCharacter = name.toUpperCase();
+		let namecapitalizedString = namefirstCharacter + document.getElementById('lname').value.slice(1);
+        const link = `https://vdo.ninja/?push=${roomcapitalizedString}${namecapitalizedString}`;
         
 		window.location.href=link;
       });
